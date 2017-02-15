@@ -27,10 +27,12 @@ int main( )
                     printf(" ");
             }
             if ((row > 3 * len && row + 1 < 5 * len) || (row > 1 && row < 2 * len))
-                printf("/");
+                    printf("/");
         }
         printf("\n");
     }
     border(len);
     return 0;
 }
+
+
